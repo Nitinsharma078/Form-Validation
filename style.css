@@ -1,0 +1,232 @@
+* {
+     padding: 0px;
+     margin: 0px;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+     width: 100vw;
+     height: 130vh;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     background: url("./bg.jpeg");
+     background-position: center;
+     background-size: cover;
+}
+
+.register {
+     height: 98%;
+     width: 50%;
+     margin-top: 1rem;
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     backdrop-filter: blur(9px);
+     -webkit-backdrop-filter: blur(9px);
+}
+
+h1 {
+     text-align: center;
+     font-size: 50px;
+     color: aliceblue;
+}
+
+.form {
+
+     height: 90%;
+     width: 90%;
+
+     padding-left: 8rem;
+
+}
+
+
+.form-group small {
+     color: red;
+     font-size: 20px;
+     position: absolute;
+     /* top: 6.5rem; */
+     left: 25rem;
+}
+
+
+.form-group {
+     margin-top: 45px;
+
+}
+
+label {
+     width: 20%;
+     font-size: 30px;
+
+     color: aliceblue;
+
+}
+
+#mycity {
+     display: none;
+}
+
+#email {
+     width: 50%;
+     height: 30px;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+}
+input[type="radio"]{
+     width:20px;
+     height: 20px;
+     border-radius: 50%;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+textarea[type="Address"] {
+     width: 50%;
+     height: 30px;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+}
+
+.form-group .input-1 {
+     margin-left: 7.5rem;
+     font-size: 20px;
+}
+
+.form-group .input-2 {
+     margin-left: 7.8rem;
+     font-size: 20px;
+}
+
+.form-group .input-3 {
+     margin-left: 9rem;
+     font-size: 20px;
+}
+
+.form-group .input-4 {
+     margin-left: 8.5rem;
+     font-size: 20px;
+}
+
+.form-group .input-5 {
+     margin-left: 10rem;
+}
+
+
+.form-group .input-6 {
+     margin-left: 5.3rem;
+     font-size: 30px;
+}
+
+.form-group .input-7 {
+     margin-left: 9.7rem;
+     font-size: 20px;
+}
+
+.form-group .input-8 {
+     margin-left: 9.8rem;
+     font-size: 25px;
+}
+
+.form-group .input-9 {
+     margin-left: 8rem;
+     font-size: 23px;
+
+}
+
+.form-group .input-10 {
+     margin-left: 12.5rem;
+     font-size: 25px;
+
+
+}
+
+#imagePreview {
+     margin-top: 2rem;
+     margin-left: 20rem;
+}
+/* ::placeholder{
+     font-size:20px ;
+} */
+
+#Country,
+#date,
+#cert,
+#Country2 {
+     width: 40%;
+     height: 45px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+}
+
+#cert {
+     background-color: white;
+}
+
+.button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 2rem;
+     margin-right: 10rem;
+}
+
+#b {
+     padding: 10px 50px;
+     font-size: 30px;
+     border-radius: 1.32rem;
+     border: none;
+     color: aliceblue;
+     background-color: rgb(43, 125, 226);
+}
+
+#b:hover {
+     background-color: red;
+}
+
+
+label {
+     font-weight: bold;
+     /* font-size: 30px; */
+}
+
+
+.container-2 {
+     width: 100vw;
+     height: 100vh;
+
+}
+
+.table {
+     display: none;
+
+     /* background: url('/ba=ackg.jpeg'); */
+     margin-top: 2rem;
+     background-color: rgb(14, 228, 18);
+     border: 5px solid rgba(255, 255, 255, 0.5);
+     backdrop-filter: blur(9px);
+     -webkit-backdrop-filter: blur(9px);
+
+}
+
+thead {
+     font-size: 100px;
+     color: aliceblue;
+}
+
+th {
+     font-size: 25px;
+     color: aliceblue;
+
+
+}
+td{
+     font-size: 20px;
+}
+
+.show {
+     display: block;
+}
